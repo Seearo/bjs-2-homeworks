@@ -59,7 +59,7 @@ console.log(student1);
 student1.setSubject("Algebra");
 console.log(student1.setSubject);
 console.log(student1.getAverage()); // 0
-student1.addMarks(5, 4, 5);
+student1.addMarks(5, 4, 5, 4);
 console.log(student1.getAverage()); // 4.5
 console.log(student1);
 // {age: 19, gender: "женский", marks: [4, 5, 4, 5], name: "Василиса", subject: "Algebra"}
