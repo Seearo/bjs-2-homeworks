@@ -32,7 +32,7 @@ Student.prototype.getAverage = function () {
 
   arrayOfMarks = this.marks;
 
-  if (arrayOfMarks === [] || arrayOfMarks == undefined) {
+  if (arrayOfMarks === [] || arrayOfMarks === undefined) {
 
     return 0;
 
